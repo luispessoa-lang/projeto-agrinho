@@ -1,1 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agro Paraná - A Força do Campo</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">🌾 Agro <span>Paraná</span></h1>
+      <ul class="nav-links">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#dados">Dados</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
 
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Paraná: O Celeiro do Brasil</h2>
+      <p>Líder nacional em frango, soja, milho, feijão e muito mais.</p>
+      <a href="#sobre" class="btn">Conheça o Agro Paranaense</a>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="section">
+    <div class="container">
+      <h2>Sobre a Agropecuária no Paraná</h2>
+      <p>O Paraná é um dos estados mais produtivos do Brasil. Com clima favorável, solos férteis e tecnologia avançada, o estado se destaca na produção de grãos, pecuária e agroindústria.</p>
+      <div class="grid">
+        <div class="card">
+          <h3>🌱 Agricultura</h3>
+          <p>Soja, milho, trigo, feijão e café são os grandes destaques.</p>
+        </div>
+        <div class="card">
+          <h3>🐔 Pecuária</h3>
+          <p>Maior produtor de frango do Brasil e forte em suínos e leite.</p>
+        </div>
+        <div class="card">
+          <h3>🤝 Cooperativismo</h3>
+          <p>Um dos mais fortes do país, impulsionando o desenvolvimento rural.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Produtos -->
+  <section id="produtos" class="section bg-light">
+    <div class="container">
+      <h2>Principais Produtos</h2>
+      <div class="grid-3">
+        <div class="product-card">
+          <span class="emoji">🌾</span>
+          <h3>Soja</h3>
+          <p>2º maior produtor nacional</p>
+        </div>
+        <div class="product-card">
+          <span class="emoji">🌽</span>
+          <h3>Milho</h3>
+          <p>2º maior produtor nacional</p>
+        </div>
+        <div class="product-card">
+          <span class="emoji">🐔</span>
+          <h3>Frango</h3>
+          <p>1º maior produtor do Brasil</p>
+        </div>
+        <div class="product-card">
+          <span class="emoji">🌾</span>
+          <h3>Trigo</h3>
+          <p>Líder nacional</p>
+        </div>
+        <div class="product-card">
+          <span class="emoji">🫘</span>
+          <h3>Feijão</h3>
+          <p>Líder nacional</p>
+        </div>
+        <div class="product-card">
+          <span class="emoji">🥚</span>
+          <h3>Ovos e Leite</h3>
+          <p>Produção expressiva</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dados -->
+  <section id="dados" class="section">
+    <div class="container">
+      <h2>Dados e Estatísticas</h2>
+      <div class="stats">
+        <div class="stat-item">
+          <h3>200 Bilhões</h3>
+          <p>Valor Bruto da Produção (aprox. 2023)</p>
+        </div>
+        <div class="stat-item">
+          <h3>18+ Mi ton</h3>
+          <p>Soja (2024)</p>
+        </div>
+        <div class="stat-item">
+          <h3>15+ Mi ton</h3>
+          <p>Milho</p>
+        </div>
+        <div class="stat-item">
+          <h3>34%</h3>
+          <p>da produção nacional de frango</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeria -->
+  <section id="galeria" class="section bg-light">
+    <div class="container">
+      <h2>Galeria</h2>
+      <div class="gallery" id="gallery">
+        <!-- JS vai preencher -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="section">
+    <div class="container">
+      <h2>Fale Conosco</h2>
+      <form id="contactForm">
+        <input type="text" placeholder="Seu nome" required>
+        <input type="email" placeholder="Seu e-mail" required>
+        <textarea placeholder="Sua mensagem" required></textarea>
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Agro Paraná - Site demonstrativo | Desenvolvido com ❤️ para o Agro Paranaense</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
